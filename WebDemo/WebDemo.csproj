@@ -22,9 +22,11 @@
 
   <ItemGroup>
     <None Remove="ClientApp\components\blog.tsx" />
+    <None Remove="ClientApp\components\Tools.tsx" />
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\components\Tools.tsx" />
     <TypeScriptCompile Include="ClientApp\components\Blog.tsx" />
   </ItemGroup>
 
